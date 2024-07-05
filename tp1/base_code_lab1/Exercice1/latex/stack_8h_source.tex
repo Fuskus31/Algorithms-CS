@@ -1,0 +1,27 @@
+\doxysection{stack.\+h}
+\hypertarget{stack_8h_source}{}\label{stack_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ \_\_STACK\_H\_\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ \_\_STACK\_H\_\_}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structs__stack}{s\_stack}}\ *\mbox{\hyperlink{structs__stack}{Stack}};}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00014\ \mbox{\hyperlink{structs__stack}{Stack}}\ stack(\textcolor{keywordtype}{void});\ \textcolor{comment}{//j'ai\ ajouter\ void\ dans\ les\ parenthses}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00022\ \mbox{\hyperlink{structs__stack}{Stack}}\ push(\mbox{\hyperlink{structs__stack}{Stack}}\ s,\ \textcolor{keywordtype}{int}\ e);}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00028\ \textcolor{keywordtype}{bool}\ empty(\mbox{\hyperlink{structs__stack}{Stack}}\ s);}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00036\ \mbox{\hyperlink{structs__stack}{Stack}}\ pop(\mbox{\hyperlink{structs__stack}{Stack}}\ s);}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00043\ \textcolor{keywordtype}{int}\ top(\mbox{\hyperlink{structs__stack}{Stack}}\ s);}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00049\ \textcolor{keywordtype}{bool}\ overflow(\mbox{\hyperlink{structs__stack}{Stack}}\ s);}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00056\ \textcolor{keywordtype}{void}\ dump(\mbox{\hyperlink{structs__stack}{Stack}}\ s,\ FILE\ *f);}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
