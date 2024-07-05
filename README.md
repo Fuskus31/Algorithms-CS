@@ -1,3 +1,3 @@
 # Algorithms-CS
-Algorithms LANGAGE C
+Algorithms language C
 binary tree, queue, list, chained list...
