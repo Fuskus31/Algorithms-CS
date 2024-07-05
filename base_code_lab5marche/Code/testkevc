@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+void bide(int **t){
+   // **t = 4;
+    
+
+    printf("%d adresse ---ligne 7 \n", t);
+    int *a = *t; // *a contient adresse du pointeur pointé par t
+    printf("%d adresse --- ligne9 \n", a);
+    *a=4;
+
+    
+    int* par = a; //meme chose
+    //par = a;
+    *par = 3;
+
+}
+
+
+int main(){
+printf("\n\n\n\n\n\n");
+
+
+int x = 5;
+printf("%d adresse de x ---\n", &x);
+int* p = &x;
+printf("%d ligne 27 \n", x); //5
+printf("%d ligne 28 \n\n", *p); //5
+printf("%d ligne 29 adresse p  \n\n", &p); //5
+bide(&p);
+printf("%d\n", x); //2
+
+
+
+
+
+return 0;
+}
